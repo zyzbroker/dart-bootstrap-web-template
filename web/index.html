@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>step1</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script>
+        // WARNING: DO NOT set the <base href> like this in production!
+        // Details: https://webdev.dartlang.org/angular/guide/router
+        (function() {
+            var m = document.location.pathname.match(/^(\/[-\w]+)+\/web($|\/)/);
+            document.write('<base href="' + (m ? m[0] : '/') + '" />');
+        }());
+    </script>
+</head>
+
+<body>
+    <rst-app>Loading...</rst-app>
+    <script defer src="main.dart.js"></script>
+</body>
+
+</html>

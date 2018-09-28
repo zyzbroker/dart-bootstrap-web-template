@@ -1,0 +1,7 @@
+#foler
+build
+.dart_tool
+
+#file
+pubspec.lock
+.packages
